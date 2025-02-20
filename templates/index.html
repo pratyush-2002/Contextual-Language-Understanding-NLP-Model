@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentiment and Emotion Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+</head>
+<body>
+  <div class="container">
+    <h1>Sentiment and Emotion Analyzer</h1>
+    <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+    <button id="analyzeButton">Analyze</button>
+    <div id="resultContainer" class="hidden">
+      <h3>Analysis Results</h3>
+      <p><strong>Sentiment:</strong> <span id="sentimentResult"></span></p>
+      <p><strong>Emotion:</strong> <span id="emotionResult"></span></p>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>
