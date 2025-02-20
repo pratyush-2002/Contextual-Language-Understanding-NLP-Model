@@ -1,0 +1,7 @@
+flask
+requests
+transformers
+torch
+xlm-roberta-tokenizer
+xlm-roberta-model
+j-hartmann/emotion-english-distilroberta-base
